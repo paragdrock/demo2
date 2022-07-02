@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="15" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14276" started-at="2022-06-21T08:59:31Z" finished-at="2022-06-21T08:59:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14276" started-at="2022-06-21T08:59:31Z" finished-at="2022-06-21T08:59:45Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="driverOpener()[pri:0, instance:testcases.LoginTest@28d25987]" name="driverOpener" is-config="true" duration-ms="6641" started-at="2022-06-21T08:59:31Z" finished-at="2022-06-21T08:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverOpener -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="779" started-at="2022-06-21T08:59:38Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="669" started-at="2022-06-21T08:59:39Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12334]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="652" started-at="2022-06-21T08:59:39Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="2580" started-at="2022-06-21T08:59:40Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="766" started-at="2022-06-21T08:59:43Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[para]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="414" started-at="2022-06-21T08:59:43Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="414" started-at="2022-06-21T08:59:44Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="389" started-at="2022-06-21T08:59:44Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter valid email.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="credentialsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.LoginTest@28d25987]" name="credentialsTest" duration-ms="436" started-at="2022-06-21T08:59:45Z" data-provider="loginCredential" finished-at="2022-06-21T08:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+        <test-method status="PASS" signature="closingDriver()[pri:0, instance:testcases.LoginTest@28d25987]" name="closingDriver" is-config="true" duration-ms="204" started-at="2022-06-21T08:59:45Z" finished-at="2022-06-21T08:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
